@@ -1,0 +1,18 @@
+<p>
+    hijo works!
+</p>
+<!-- Si la variable "leido" del hijo es true, aplica la clase tachado a lo que mostras en la vista del hijo
+     Si "leido es false" aplica la clase success al boton
+     Si "leido es true" aplica la clase danger al boton
+     Al hacer clic en boton, llama a "marcar" que cambia el valor booleano de "leido"
+    -->
+
+<div style=" border-style: solid; border-width: 2px; border-color: blue;padding: 20px; margin: 10px">
+
+    <h4 [ngClass]="{tachado: leido == true}" style="display: inline">{{avisosHijo}}</h4>
+
+    <button *ngIf="leido == false" class="btn btn-success pull-right" (click)="marcar() ; detectar($event)">Marcar como Leído</button>
+
+    <button *ngIf="leido == true" class="btn btn-danger float-md-right" (click)="marcar()">Desmarcar como Leído</button>
+
+</div>

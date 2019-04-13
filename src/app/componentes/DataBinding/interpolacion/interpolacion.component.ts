@@ -4,7 +4,7 @@
     • Interpolación. {{}}
     • Property Binding [] = expresion
 
-  Vista a fuente:
+  Vista a modelo:
    • Event Binding  
 
   Ambas direcciones:

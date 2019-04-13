@@ -14,6 +14,14 @@ import { NgTemplate2Component } from './componentes/directivas/ng-template2/ng-t
 import { NgStyleComponent } from './componentes/directivas/ng-style/ng-style.component';
 import { NgClassComponent } from './componentes/directivas/ng-class/ng-class.component';
 import { NgForComponent } from './componentes/directivas/ng-for/ng-for.component';
+import { NgSwitchComponent } from './componentes/directivas/ng-switch/ng-switch.component';
+import { PadreComponent } from './componentes/inputOutput/Input/padre/padre.component';
+import { HijoComponent } from './componentes/inputOutput/Input/hijo/hijo.component';
+import { Padre2Component } from './componentes/inputOutput/output/padre2/padre2.component';
+import { Hijo2Component } from './componentes/inputOutput/output/hijo2/hijo2.component';
+import { Hijo3Component } from './componentes/inputOutput/output/hijo3/hijo3.component';
+import { Padre3Component } from './componentes/inputOutput/output/padre3/padre3.component';
+
 
 
 
@@ -31,7 +39,14 @@ import { NgForComponent } from './componentes/directivas/ng-for/ng-for.component
     NgTemplate2Component,
     NgStyleComponent,
     NgClassComponent,
-    NgForComponent    
+    NgForComponent,
+    NgSwitchComponent,
+    PadreComponent,
+    HijoComponent,
+    Padre2Component,
+    Hijo2Component,
+    Hijo3Component,
+    Padre3Component    
   ],
   imports: [
     BrowserModule,

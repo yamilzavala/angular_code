@@ -1,5 +1,5 @@
 /**
- *   Vista a fuente:
+ *   Vista a modelo:
          • Event Binding  
      
      Uso:    

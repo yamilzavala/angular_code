@@ -1,6 +1,6 @@
 /**
  * Uso: [( directiva )] = “nombredelapropiedad
- * Direccion: ambas direcciones
+ * AMBAS DIRECCIONES. Vista a modelo y modelo a vista
  */
 
 import { Component, OnInit } from '@angular/core';

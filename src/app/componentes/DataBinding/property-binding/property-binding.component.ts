@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class PropertyBindingComponent implements OnInit {
 
   /**
+   * modelo a vista
    * [propiedad] = propiedad
    * Pasados 3 segundos, se cambia el valor del imput del html... 
    */

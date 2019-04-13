@@ -1,0 +1,18 @@
+<p>
+    padre works!
+</p>
+
+
+<div style=" border-style: solid; border-width: 2px; border-color: orange;padding: 10px">
+    <!-- [inputHijo]="variableDelPadre"-->
+    <app-hijo [inputHijo]="textoPadre"></app-hijo>
+</div>
+
+<hr>
+
+<!--EJEMPLO 2: CON UN ARRAY PASADO AL HIJO-->
+<div style=" border-style: solid; border-width: 2px; border-color: blue;padding: 10px">
+    <!-- [inputHijo]="variableDelPadre"; 
+    uso de ngFor para iterar avisos e introducirlos en la propiedad aviso del component hijo-->
+    <app-hijo *ngFor="let padrep of avisosPadre" [avisosHijo]="padrep"></app-hijo>
+</div>
