@@ -21,6 +21,10 @@ import { Padre2Component } from './componentes/inputOutput/output/padre2/padre2.
 import { Hijo2Component } from './componentes/inputOutput/output/hijo2/hijo2.component';
 import { Hijo3Component } from './componentes/inputOutput/output/hijo3/hijo3.component';
 import { Padre3Component } from './componentes/inputOutput/output/padre3/padre3.component';
+import { GokuComponent } from './componentes/inputOutput/output/gokuGohan/goku/goku.component';
+import { GohanComponent } from './componentes/inputOutput/output/gokuGohan/gohan/gohan.component';
+import { GokuInputComponent } from './componentes/inputOutput/Input/gokuGohan/goku/goku.component';
+import { GohanInputComponent } from './componentes/inputOutput/Input/gokuGohan/gohan/gohan.component';
 
 
 
@@ -46,7 +50,11 @@ import { Padre3Component } from './componentes/inputOutput/output/padre3/padre3.
     Padre2Component,
     Hijo2Component,
     Hijo3Component,
-    Padre3Component    
+    Padre3Component,
+    GokuInputComponent,
+    GohanInputComponent,
+    GokuComponent,
+    GohanComponent    
   ],
   imports: [
     BrowserModule,
