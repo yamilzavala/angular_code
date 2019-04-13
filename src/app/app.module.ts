@@ -25,6 +25,10 @@ import { GokuComponent } from './componentes/inputOutput/output/gokuGohan/goku/g
 import { GohanComponent } from './componentes/inputOutput/output/gokuGohan/gohan/gohan.component';
 import { GokuInputComponent } from './componentes/inputOutput/Input/gokuGohan/goku/goku.component';
 import { GohanInputComponent } from './componentes/inputOutput/Input/gokuGohan/gohan/gohan.component';
+import { GokuFatherComponent } from './componentes/inputOutput/hermanos/goku/gokuFather.component';
+import { GohanBrotherComponent } from './componentes/inputOutput/hermanos/gohan/gohanBrother.component';
+import { GotenComponent } from './componentes/inputOutput/hermanos/goten/gotenBrother.component';
+
 
 
 
@@ -54,7 +58,10 @@ import { GohanInputComponent } from './componentes/inputOutput/Input/gokuGohan/g
     GokuInputComponent,
     GohanInputComponent,
     GokuComponent,
-    GohanComponent    
+    GohanComponent,
+    GokuFatherComponent,
+    GohanBrotherComponent,
+    GotenComponent 
   ],
   imports: [
     BrowserModule,
