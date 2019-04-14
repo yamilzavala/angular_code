@@ -29,6 +29,7 @@ import { GokuFatherComponent } from './componentes/inputOutput/hermanos/goku/gok
 import { GohanBrotherComponent } from './componentes/inputOutput/hermanos/gohan/gohanBrother.component';
 import { GotenComponent } from './componentes/inputOutput/hermanos/goten/gotenBrother.component';
 import { AppService } from './body/services/app.service';
+import { MilkComponent } from './componentes/inputOutput/hermanos/milk/milk.component';
 
 
 
@@ -62,7 +63,8 @@ import { AppService } from './body/services/app.service';
     GohanComponent,
     GokuFatherComponent,
     GohanBrotherComponent,
-    GotenComponent 
+    GotenComponent,
+    MilkComponent 
   ],
   imports: [
     BrowserModule,
