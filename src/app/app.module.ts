@@ -28,6 +28,7 @@ import { GohanInputComponent } from './componentes/inputOutput/Input/gokuGohan/g
 import { GokuFatherComponent } from './componentes/inputOutput/hermanos/goku/gokuFather.component';
 import { GohanBrotherComponent } from './componentes/inputOutput/hermanos/gohan/gohanBrother.component';
 import { GotenComponent } from './componentes/inputOutput/hermanos/goten/gotenBrother.component';
+import { AppService } from './body/services/app.service';
 
 
 
@@ -67,7 +68,7 @@ import { GotenComponent } from './componentes/inputOutput/hermanos/goten/gotenBr
     BrowserModule,
     FormsModule
   ],
-  providers: [],
+  providers: [ AppService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

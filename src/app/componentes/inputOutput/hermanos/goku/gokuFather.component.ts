@@ -9,11 +9,11 @@ import { Component } from '@angular/core';
     </div>
     <div class="row">
       <div class="col-5">
-        <app-gohan-brother class="gohanComp" (mensajeDesdeGohan)="mensajeParaGoten($event)"></app-gohan-brother>
+        <app-gohan-brother class="gohanComp" ></app-gohan-brother>
       </div>
       <div class="col-2"></div>
       <div class="col-5">
-        <app-goten class="gotenComp" [mensajeGoten]="enviarAGoten"></app-goten>
+        <app-goten class="gotenComp"></app-goten>
       </div>
     </div>
   </div>
@@ -21,11 +21,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./gokuFather.component.css']
 })
 export class GokuFatherComponent {
-  enviarAGoten: string;
+  //enviarAGoten: string;
 
-  mensajeParaGoten(mensaje: string){
-    this.enviarAGoten = mensaje;
-  }
+  // mensajeParaGoten(mensaje: string){
+  //   this.enviarAGoten = mensaje;
+  // }
 
   constructor() { }
 
